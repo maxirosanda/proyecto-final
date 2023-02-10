@@ -1,0 +1,22 @@
+
+
+%ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 18px;
+    list-style: none;
+}
+
+ul {
+
+    @extend %ul
+}
+
+a {
+
+    text-decoration: none;
+    $colorLetra: black;
+
+}
